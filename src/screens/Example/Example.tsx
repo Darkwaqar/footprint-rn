@@ -15,6 +15,7 @@ import { useTheme } from '../../hooks';
 import { useLazyFetchOneQuery } from '../../services/modules/users';
 import { changeTheme, ThemeState } from '../../store/theme';
 import i18next from 'i18next';
+import tw from 'twrnc';
 
 const Example = () => {
   const { t } = useTranslation(['example', 'welcome']);

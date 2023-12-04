@@ -86,6 +86,7 @@
 		13B07FAE1A68108700A75B9A /* footprint */ = {
 			isa = PBXGroup;
 			children = (
+				4F1919C32B1E4AB0001AB388 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -104,6 +105,14 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-footprint-footprintTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F1919C32B1E4AB0001AB388 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
